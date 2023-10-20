@@ -26,8 +26,8 @@ namespace Kinematic
 
     private:
         // float posCobaX = 0, posCobaY = 0, posCobaTheta = 0;
-        Point2D pos = {0,0,0};
-
+        Point2D pos = {0, 0, 0};
+        Point2D vel = {0, 0, 0};
 
         static KinematicCoba *instance;
         float a = 45;

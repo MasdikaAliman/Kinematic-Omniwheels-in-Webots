@@ -171,41 +171,7 @@ Point2D PID::goTo(Point2D pos, Point2D tar)
     // sah.y = linVel * std::sin((moveDir - yaw * 180 / M_PI) * M_PI / 180);
     output.theta = outTheta * M_PI / 180;
     IC(output.theta);
-
-    coba(output, &ret);
-
     return output;
 }
 
-void PID::coba(Point2D &out, Point2D *ret)
-{
-    static float vbuffer[2];
-    float delta_v[2];
 
-    // IC(vbuffer[0], vbuffer[1]);
-    // IC(delta_v[0], delta_v[1]);
-
-    delta_v[0] = out.x - vbuffer[0];
-    delta_v[1] = out.y - vbuffer[1];
-
-    float r = sqrt(delta_v[0] * delta_v[1] + delta_v[1] * delta_v[1]);
-    float theta = atan2(delta_v[1], delta_v[0]);
-
-    float acceleration = 100;
-    // IC(r, theta, acceleration);
-    if (r > acceleration)
-        r = acceleration;
-
-    // IC(cos(theta), sin(theta));
-
-    vbuffer[0] += r * cos(theta);
-    vbuffer[1] += r * sin(theta);
-
-    // printf("Velocity datas: %f %f %f\n", v_buffer[0], v_buffer[1], data->vel_th);
-    // IC(vbuffer[0], vbuffer[1]);
-    ret->x = vbuffer[0];
-    ret->y = vbuffer[1];
-
-    // IC(out.x, out.y, out.theta);
-    // IC(ret->x, ret->y);
-}
