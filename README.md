@@ -3,13 +3,14 @@
 
 # Inverskinematic Equations
 
-![Uploading Invers.jpeg…]()
+![Invers](https://github.com/MasdikaAliman/Kinematic-4-Omniwheels-in-Webots/assets/132833231/db91ee79-1970-4258-9cfb-5f7aeda2716c)
 
 # Forwardkinematic Equations
 
-  ![Forward](https://github.com/MasdikaAliman/Kinematic-4-Omniwheels-in-Webots/assets/132833231/e23c5d06-d3ea-434c-9ec1-76eecee8657c)
+![Forward](https://github.com/MasdikaAliman/Kinematic-4-Omniwheels-in-Webots/assets/132833231/e23c5d06-d3ea-434c-9ec1-76eecee8657c)
 
 # Control Diagram
+
 ![control](https://github.com/MasdikaAliman/Kinematic-4-Omniwheels-in-Webots/assets/132833231/64ec6519-9fea-4a99-8936-f4547ba27266)
 
 
