@@ -2,9 +2,9 @@
   This Repository Include Kinematic 4 Omniwheel and Simple Control PID
 
 # Inverskinematic Equations
-  (img/Invers.jpeg)
+  ([img/Invers.jpeg](https://github.com/MasdikaAliman/Kinematic-4-Omniwheels-in-Webots/blob/master/img/Invers.jpeg))
 # Forwardkinematic Equations
-
+  
 # Control Diagram
 
 
