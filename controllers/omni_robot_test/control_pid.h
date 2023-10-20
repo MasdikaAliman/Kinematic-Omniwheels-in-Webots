@@ -22,9 +22,8 @@ public:
     float linVelPID(float error, ketetapan config, int max_lin_vel);
     float angularPID(float robot_angle, float target_angle, ketetapan config, int max_ang_vel);
     int movementDirection(int robot_angle, int reference_angle);
-    // Point2D getTarget(Point2D pos);
     Point2D goTo(Point2D pos, Point2D tar);
-    void coba(Point2D &out, Point2D *ret);
+
 
     float linear_velocity = 0;
     float dec_vel = 0;
