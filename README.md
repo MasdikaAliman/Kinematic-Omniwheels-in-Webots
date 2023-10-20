@@ -2,7 +2,7 @@
   This Repository Include Kinematic 4 Omniwheel and Simple Control PID
 
 # Inverskinematic Equations
-  ![Local Image](img/Invers.jpg)
+  (img/Invers.jpeg)
 # Forwardkinematic Equations
 
 # Control Diagram
