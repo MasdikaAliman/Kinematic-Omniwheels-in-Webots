@@ -1,0 +1,3 @@
+/home/dika/Documents/kinematic_4omi_wheels/controllers/3omniwheels/build/CMakeFiles/3omniwheels.dir
+/home/dika/Documents/kinematic_4omi_wheels/controllers/3omniwheels/build/CMakeFiles/edit_cache.dir
+/home/dika/Documents/kinematic_4omi_wheels/controllers/3omniwheels/build/CMakeFiles/rebuild_cache.dir
