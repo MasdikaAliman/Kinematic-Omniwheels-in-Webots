@@ -1,5 +1,5 @@
-# Kinematic-4-Omniwheels-in-Webots
-  This Repository Include Kinematic 4 Omniwheel and Simple Control PID
+# Kinematic-Omniwheels-in-Webots
+  This Repository Include Kinematic Omniwheel and Simple Control PID
 
 # Inverskinematic Equations
 
